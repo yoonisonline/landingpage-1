@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a8c7b5;
+    color: white;
+    padding: 40px;
+}
+
+.logo {
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 400px;
+    font-weight: 600;
+}
